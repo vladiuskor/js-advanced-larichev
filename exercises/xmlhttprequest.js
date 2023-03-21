@@ -2,12 +2,12 @@
 
 function req(id) {
 
-    const reuest = new XMLHttpRequest();
+    const request = new XMLHttpRequest();
 
-    reuest.open('GET', 'https://dummyjson.com/products/' + id);
-    reuest.send();
+    request.open('GET', 'https://dummyjson.com/products/' + id);
+    request.send();
 
-    reuest.addEventListener('load', function() {
+    request.addEventListener('load', function() {
         const data = JSON.parse(this.responseText);
         console.log(data);
     });
