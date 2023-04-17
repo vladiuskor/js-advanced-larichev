@@ -1,0 +1,21 @@
+{
+  "name": "js-advanced-larichev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladiuskor/js-advanced-larichev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "rollup": "^3.20.4"
+  }
+}
