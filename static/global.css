@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #121212;
+    --white: #fafafa;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+}
+
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+}
